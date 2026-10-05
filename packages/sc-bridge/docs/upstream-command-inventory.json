@@ -1,0 +1,864 @@
+{
+  "commit": "f5bc2ef2c106db28a45d118a9a45387f5fec7c56",
+  "source": "reference/SC-CommandBlock/Game/Subsystem/SubsystemCommandDef.cs",
+  "source_sha256": "8d0e5e1ebdee76db7cb8f33fc5ffc13beabc58a4fb85d724a32c52c5c39e076b",
+  "function_count": 67,
+  "condition_count": 28,
+  "entries": [
+    {
+      "kind": "function",
+      "name": "book",
+      "source_line": 311,
+      "comment": "命令手册",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "message",
+      "source_line": 326,
+      "comment": "显示信息",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "place",
+      "source_line": 345,
+      "comment": "放置方块",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "dig",
+      "source_line": 719,
+      "comment": "挖掘方块",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "replace",
+      "source_line": 756,
+      "comment": "填充替换方块",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "addnpc",
+      "source_line": 1017,
+      "comment": "添加生物",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "removenpc",
+      "source_line": 1040,
+      "comment": "移除生物",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "injure",
+      "source_line": 1068,
+      "comment": "伤害生物",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "kill",
+      "source_line": 1090,
+      "comment": "杀死生物",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "heal",
+      "source_line": 1101,
+      "comment": "回复生物血量",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "catchfire",
+      "source_line": 1123,
+      "comment": "使生物或方块着火",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "teleport",
+      "source_line": 1150,
+      "comment": "传送玩家",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "spawn",
+      "source_line": 1165,
+      "comment": "设置玩家重生点",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "boxstage",
+      "source_line": 1180,
+      "comment": "设置玩家碰撞箱",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "level",
+      "source_line": 1187,
+      "comment": "设置玩家等级",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "stats",
+      "source_line": 1194,
+      "comment": "设置玩家属性",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "action",
+      "source_line": 1293,
+      "comment": "控制玩家动作",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "clothes",
+      "source_line": 1446,
+      "comment": "修改玩家衣物",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "interact",
+      "source_line": 1503,
+      "comment": "与方块进行交互",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "widget",
+      "source_line": 1725,
+      "comment": "控制界面",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "adddrop",
+      "source_line": 1811,
+      "comment": "添加掉落物",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "removedrop",
+      "source_line": 1823,
+      "comment": "移除掉落物",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "launchdrop",
+      "source_line": 1874,
+      "comment": "发射掉落物",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "additem",
+      "source_line": 1934,
+      "comment": "添加物品",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "removeitem",
+      "source_line": 2024,
+      "comment": "移除物品",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "clearitem",
+      "source_line": 2093,
+      "comment": "清空物品",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "explosion",
+      "source_line": 2153,
+      "comment": "引发爆炸",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "lightning",
+      "source_line": 2162,
+      "comment": "召唤闪电",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "weather",
+      "source_line": 2198,
+      "comment": "控制天气",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "skycolor",
+      "source_line": 2241,
+      "comment": "更改天空颜色",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "temperature",
+      "source_line": 2248,
+      "comment": "设置温度",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "humidity",
+      "source_line": 2279,
+      "comment": "设置湿度",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "copyblock",
+      "source_line": 2310,
+      "comment": "复制方块区域",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "moveblock",
+      "source_line": 2481,
+      "comment": "使方块运动",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "moveset",
+      "source_line": 2523,
+      "comment": "运动设计玩法",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "furniture",
+      "source_line": 2849,
+      "comment": "家具功能延伸",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "camera",
+      "source_line": 3173,
+      "comment": "设置玩家相机",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "gametime",
+      "source_line": 3275,
+      "comment": "更改游戏时间",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "gamemode",
+      "source_line": 3320,
+      "comment": "更改游戏模式",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "gamesettings",
+      "source_line": 3356,
+      "comment": "更改游戏设置，注意世界设置已分离，此处特指全局设置",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "worldsettings",
+      "source_line": 3432,
+      "comment": "世界设置，特指存档设置",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "shapeshifter",
+      "source_line": 3509,
+      "comment": "控制狼人形态",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "lockscreen",
+      "source_line": 3537,
+      "comment": "控制屏幕状态",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "deathscreen",
+      "source_line": 3545,
+      "comment": "玩家死亡动态",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "blockfirm",
+      "source_line": 3561,
+      "comment": "方块不可破坏",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "getcell",
+      "source_line": 3626,
+      "comment": "保存方块文件",
+      "review_category": "closed_file_or_world_lifecycle_path",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "memorydata",
+      "source_line": 3701,
+      "comment": "转换填装m板数据",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "world",
+      "source_line": 3923,
+      "comment": "切换与删除世界",
+      "review_category": "closed_file_or_world_lifecycle_path",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "texture",
+      "source_line": 4061,
+      "comment": "更换材质",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "model",
+      "source_line": 4162,
+      "comment": "更换生物模型",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "image",
+      "source_line": 4257,
+      "comment": "生成像素画",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "pattern",
+      "source_line": 4313,
+      "comment": "生成光点贴图",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "music",
+      "source_line": 4593,
+      "comment": "播放音乐",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "audio",
+      "source_line": 4690,
+      "comment": "播放音效",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "build",
+      "source_line": 4767,
+      "comment": "生成建筑",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "copyfile",
+      "source_line": 4851,
+      "comment": "复制资源文件",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "capture",
+      "source_line": 4898,
+      "comment": "游戏截图",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "website",
+      "source_line": 4910,
+      "comment": "打开网站",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "note",
+      "source_line": 4917,
+      "comment": "编辑查看笔记",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "colorblock",
+      "source_line": 4967,
+      "comment": "彩色方块",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "withdraw",
+      "source_line": 5061,
+      "comment": "方块撤回模式",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "chunkwork",
+      "source_line": 5105,
+      "comment": "使区块工作",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "convertfile",
+      "source_line": 5159,
+      "comment": "转换文件",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "moremode",
+      "source_line": 5216,
+      "comment": "更多模式设置",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "exit",
+      "source_line": 5228,
+      "comment": "退出游戏",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "cmdtext",
+      "source_line": 5244,
+      "comment": "执行命令文本",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "function",
+      "name": "measure",
+      "source_line": 5332,
+      "comment": "测量各种数据",
+      "review_category": "mutation_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "blockexist",
+      "source_line": 5373,
+      "comment": "方块存在判定",
+      "review_category": "review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "blockchange",
+      "source_line": 5411,
+      "comment": "方块改变判定",
+      "review_category": "state_or_event_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "blocklight",
+      "source_line": 5438,
+      "comment": "方块亮度判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "entityexist",
+      "source_line": 5471,
+      "comment": "生物存在判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "creaturedie",
+      "source_line": 5534,
+      "comment": "生物死亡判定",
+      "review_category": "state_or_event_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "dropexist",
+      "source_line": 5597,
+      "comment": "掉落物存在判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "itemexist",
+      "source_line": 5613,
+      "comment": "物品存在判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "handitem",
+      "source_line": 5844,
+      "comment": "玩家手持判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "levelrange",
+      "source_line": 5878,
+      "comment": "玩家等级判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "heightrange",
+      "source_line": 5889,
+      "comment": "玩家位置高度判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "eyesangle",
+      "source_line": 5900,
+      "comment": "玩家视角判定",
+      "review_category": "review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "statsrange",
+      "source_line": 5915,
+      "comment": "玩家属性判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "actionmake",
+      "source_line": 5943,
+      "comment": "玩家动作判定",
+      "review_category": "state_or_event_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "openwidget",
+      "source_line": 5996,
+      "comment": "打开界面判定",
+      "review_category": "state_or_event_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "gamemode",
+      "source_line": 6023,
+      "comment": "游戏模式判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "camerapos",
+      "source_line": 6042,
+      "comment": "相机位置判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "signtext",
+      "source_line": 6070,
+      "comment": "告示牌内容判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "clickinteract",
+      "source_line": 6105,
+      "comment": "点击交互判定",
+      "review_category": "state_or_event_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "longpress",
+      "source_line": 6174,
+      "comment": "长按屏幕判定",
+      "review_category": "state_or_event_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "timerange",
+      "source_line": 6184,
+      "comment": "游戏时间判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "fileexist",
+      "source_line": 6218,
+      "comment": "文件存在判定",
+      "review_category": "closed_file_or_world_lifecycle_path",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "modcount",
+      "source_line": 6224,
+      "comment": "mod数量判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "oncapture",
+      "source_line": 6230,
+      "comment": "拍照截图判定",
+      "review_category": "state_or_event_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "eatorwear",
+      "source_line": 6235,
+      "comment": "玩家衣食判定",
+      "review_category": "state_or_event_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "clothes",
+      "source_line": 6241,
+      "comment": "玩家穿着判定",
+      "review_category": "readonly_candidate",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "patternbutton",
+      "source_line": 6262,
+      "comment": "贴图按钮点击判定",
+      "review_category": "state_or_event_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "moveset",
+      "source_line": 6275,
+      "comment": "运动设计运作判定",
+      "review_category": "state_or_event_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    },
+    {
+      "kind": "condition",
+      "name": "musicplay",
+      "source_line": 6370,
+      "comment": "音乐播放判定",
+      "review_category": "state_or_event_review_required",
+      "subtypes": "manual source review required",
+      "access": "not granted by this inventory"
+    }
+  ]
+}

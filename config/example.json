@@ -1,0 +1,17 @@
+{
+  "game_dir": "../game",
+  "runtime_dir": "../runtime/default",
+  "artifacts_dir": "../artifacts/default",
+  "backups_dir": "../backups",
+  "target": {
+    "directory": "",
+    "name": "SC MCP LAB",
+    "world_token": "",
+    "validated": false,
+    "backup": "",
+    "backup_sha256": "",
+    "test_only": true
+  },
+  "limits": {"max_region_cells":4096,"max_write_cells":64},
+  "timeout_seconds":15
+}

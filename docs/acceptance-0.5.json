@@ -1,0 +1,57 @@
+{
+  "version": "0.5.0",
+  "protocol": 3,
+  "status": "passed",
+  "completed": [
+    "creature property live acceptance",
+    "save/reload and process interruption",
+    "unified MCP stdio",
+    "14 related building regressions",
+    "10 operation regressions",
+    "public tool bridge coverage",
+    "clean source installation",
+    "offline Release installation",
+    "independent path pinned build",
+    "unified deployment and compare restore",
+    "installed wheel actual MCP stdio"
+  ],
+  "pending": [],
+  "evidence": [
+    {
+      "file": "creature-properties-live.json",
+      "sha256": "4a349869fe55c8de98a43f515af27917aaf5f2c4b2816b3732ec5dca2618f7fc"
+    },
+    {
+      "file": "creature-restart-live.json",
+      "sha256": "3e86bf39092bb4564e784837b143624b123d4206b5577639c183be0a9c12985d"
+    },
+    {
+      "file": "unified-mcp-stdio-live.json",
+      "sha256": "b9c7b9f9d179b48d45034a08ab1a9f3984ef6c160935e4b33e535ca478b084c5"
+    },
+    {
+      "file": "live-tests.json",
+      "sha256": "efa1583c6c79194c77ad4bb23629ffe9f69ac0174e8fcb9fd48cc9eba86abc05"
+    },
+    {
+      "file": "operations-live.json",
+      "sha256": "8dacadd2c16451a081ae6f4b1ba3b2459d57a27b376aa50eb275b360749262f6"
+    },
+    {
+      "file": "operations-mcp-stdio.json",
+      "sha256": "521e34b9599070edbcff9ebacce7ae462a9aa75e537a72b15bc4d06ee059dac4"
+    }
+  ],
+  "limitations": [
+    "local single player only",
+    "creature speed and attack resistance do not persist across reload",
+    "non-building side effects are not rolled back",
+    "no SSGC acceptance or promotion"
+  ],
+  "publication_gates": [
+    "verified GitHub author",
+    "clean committed tree build",
+    "final adapter deployment and installed stdio smoke",
+    "immutable tag and remote asset checksum verification"
+  ]
+}

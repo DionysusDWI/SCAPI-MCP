@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sc-bridge"
+version = "0.5.0"
+description = "Survivalcraft protocol 3 local C# bridge"
+requires-python = ">=3.10"
+
+[project.scripts]
+sc-bridge = "sc_bridge.__main__:main"
+
+[tool.setuptools.package-data]
+sc_bridge = ["host.js"]

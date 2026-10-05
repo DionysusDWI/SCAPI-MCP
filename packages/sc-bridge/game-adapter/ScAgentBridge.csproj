@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>ScAgentBridge</AssemblyName>
+    <Version>0.5.0</Version>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <CommandBlockAssembly Condition="'$(CommandBlockAssembly)' == ''">$(MSBuildThisFileDirectory)..\..\..\build\commandblock-official\CommandBlock.dll</CommandBlockAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony"><HintPath>$(GameDir)\0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="CommandBlock"><HintPath>$(CommandBlockAssembly)</HintPath><Private>false</Private></Reference>
+    <Reference Include="Survivalcraft"><HintPath>$(GameDir)\Survivalcraft.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Engine"><HintPath>$(GameDir)\Engine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="EntitySystem"><HintPath>$(GameDir)\EntitySystem.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

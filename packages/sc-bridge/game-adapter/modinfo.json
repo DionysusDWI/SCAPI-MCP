@@ -1,0 +1,1 @@
+{"Name":"SC Agent Bridge","Version":"0.5.0","ApiVersion":"1.9.3.2","ScVersion":"2.4.0.0","PackageName":"local.sc.agentbridge","Author":"Survivalcraft workspace","Description":"Protocol 3 local singleplayer Agent host","NonPersistentMod":true,"LoadOrder":20000,"Dependencies":[]}
